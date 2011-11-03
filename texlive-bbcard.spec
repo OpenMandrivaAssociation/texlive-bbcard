@@ -1,3 +1,9 @@
+# revision 19440
+# category Package
+# catalog-ctan /graphics/metapost/contrib/macros/bbcard
+# catalog-date 2008-08-17 01:00:50 +0200
+# catalog-license pd
+# catalog-version undef
 Name:		texlive-bbcard
 Version:	20080817
 Release:	1
@@ -43,6 +49,7 @@ MetaPost.
 %doc %{_texmfdistdir}/doc/metapost/bbcard/README.bbcard
 %doc %{_texmfdistdir}/doc/metapost/bbcard/README.calendar
 %doc %{_texmfdistdir}/doc/metapost/bbcard/README.scorecard
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ MetaPost.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar metapost doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
