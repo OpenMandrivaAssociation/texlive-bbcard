@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-bbcard
 Version:	20080817
-Release:	4
+Release:	5
 Summary:	Bullshit bingo, calendar and baseball-score cards
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/bbcard
