@@ -5,7 +5,7 @@
 # catalog-license pd
 # catalog-version undef
 Name:		texlive-bbcard
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Bullshit bingo, calendar and baseball-score cards
 Group:		Publishing
