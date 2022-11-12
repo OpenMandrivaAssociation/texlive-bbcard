@@ -5,8 +5,8 @@ Summary:	Bullshit bingo, calendar and baseball-score cards
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/bbcard
 License:	PD
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bbcard.r19440.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bbcard.doc.r19440.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bbcard.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bbcard.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
